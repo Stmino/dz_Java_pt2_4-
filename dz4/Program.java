@@ -7,18 +7,26 @@ public class Program {
         ArrayList.add(12);
         ArrayList.add(99);
         ArrayList.add(55);
+        ArrayList.add(88);
+        ArrayList.add(13);
         ArrayList.removeIndex(2);
         ArrayList.removeElement(12);
-        ArrayList.removeElement(88);
+        ArrayList.findIndex(2);
+        ArrayList.getLength();
+        ArrayList.maxEl();
+        ArrayList.maxEl();
+        ArrayList.multEl();
         ArrayList.BubbleSort();
+        ArrayList.printArray();
+
+        ArrayList<String> StringList = new ArrayList<>();   
+        StringList.add("Cat");
+        StringList.add("Dog");
+        StringList.add("Mouse");
+        StringList.removeIndex(1);
+        StringList.printArray();
 
 
-        ArrayList<String> stringList = new ArrayList<>();
-        stringList.add("Cat");
-        stringList.add("Dog");
-        stringList.add("Mouse");
-        stringList.removeIndex(1);
-        
 
     }
 }

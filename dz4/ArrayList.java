@@ -19,7 +19,7 @@ public class ArrayList<T> {
         return this.length;
     }
 
-    public T[] getel() {
+    public T[] getEl() {
         return this.el;
     }
 
